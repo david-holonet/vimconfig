@@ -6,6 +6,6 @@
   3. vim +BundleInstall +qall
 EOF
 
-cp -r `pwd`/.vim `pwd`/.vimrc ~/Code
+cp -r `pwd`/.vim `pwd`/.vimrc ~
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 vim +BundleInstall +qall
