@@ -1,0 +1,11 @@
+#!/bin/bash
+
+:<<EOF
+  1. copy .vim and .vimrc to your ~
+  2. git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+  3. vim +BundleInstall +qall
+EOF
+
+cp -r `pwd`/.vim `pwd`/.vimrc ~/Code
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+vim +BundleInstall +qall
