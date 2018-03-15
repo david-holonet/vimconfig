@@ -1,6 +1,3 @@
-vim_setting
-===========
-
 # Color like Sublime Text2
 
 ## [Look like]
